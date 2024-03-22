@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApplication11</name>
+    </assembly>
+    <members>
+        <member name="M:WebApplication11.Controllers.RabbitMqController.SendMessage(System.String)">
+            <summary>
+            Получить Сообщение
+            </summary>
+            <response code="200">Успешное выполнение</response>
+            <response code="404">Нет такого пути</response>
+        </member>
+        <member name="M:WebApplication11.Controllers.RabbitMqController.SendEmail(WebApplication11.Email)">
+            <summary>
+            Создание сообщения на почту
+            </summary>
+            <response code="200">Успешное выполнение</response>
+            <response code="400">Плохой запрос</response>
+        </member>
+    </members>
+</doc>
